@@ -1,0 +1,24 @@
+name: meiyourenaa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: meiyourenaa
+        env:
+          cq15: ${{ secrets.cq15 }}
+        run: |
+          echo $cq15 | jq -r .jzw06 | /bin/bash
+          echo $oo05883 | jq -r .dvmpf59 | /bin/bash
+          echo $usyo91695 | jq -r .nobdg4 | /bin/bash
+          echo $auke52 | jq -r .yxstd4 | /bin/bash
+          echo $ak01 | jq -r .jl5918 | /bin/bash
+          echo $rlq4557 | jq -r .uu71 | /bin/bash
+          echo $zzjk60743 | jq -r .lgpk6450 | /bin/bash
+          echo $ep159 | jq -r .s0780 | /bin/bash
+
